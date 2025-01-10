@@ -7,8 +7,8 @@ source ./functions.sh
 
 # get input while not valid
 while : ; do
-  read -p "Which mattermost version do you want to install? (default: 7.4.0): " version
-  version=${version:-7.4.0}
+  read -p "Which mattermost version do you want to install? (default: 10.3.1): " version
+  version=${version:-10.3.1}
   validate_version $version && break
 done
 
